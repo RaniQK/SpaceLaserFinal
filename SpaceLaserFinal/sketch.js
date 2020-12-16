@@ -244,7 +244,7 @@ function draw() {
 
     if (record >= 0 && record <= 20) {
       image(averageFrame, 0, 0, width, height)
-    } else if (record > 20 && record <= 80) {
+    } else if (record > 20 && record <= 70) {
       image(notBadFrame, 0, 0, width, height)
     } else {
       image(superFrame, 0, 0, width, height)
